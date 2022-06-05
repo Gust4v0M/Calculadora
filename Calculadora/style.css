@@ -1,0 +1,38 @@
+*{
+        /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-style: "white";
+    background-color: blue;
+    margin-left: 35%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#mainSquare{
+    position: absolute;
+    color: white;
+    margin: 10px;
+}
+
+.results{
+    height: 50px;
+    width: 380px;
+    font-size: 30px;
+    
+}
+
+#numbers{
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+
+#square{
+    padding: 50px;
+}

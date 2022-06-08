@@ -31,14 +31,12 @@
 #numbers{
     background-color: blueviolet;
     margin-top: 100px;
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .square{
     width: 70px;
     height: 50px;
-    display: flex;
-    flex-direction: row;
 }
-
 

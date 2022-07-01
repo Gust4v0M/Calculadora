@@ -1,42 +1,110 @@
 *{
-    background-color:   rgb(67, 64, 64);
     margin: 0px;
     padding: 0px;
 }
 
-#container{
-    width: 400px;
-    height: 500px;
-    border-style: solid;
-    border-style: "white";
-    background-color: blue;
-    margin-left: 35%;
-    margin-top: 5%;
-    position: relative;
+body{
+    margin-top: 60px;
+    background-color: rgb(34, 33, 33);
 }
 
-#mainSquare{
-    position: absolute;
-    color: white;
-    margin: 10px;
+.mainContainer{
+
+    margin: auto;
+    width: 280px;
+    height: 400px;
+    border-style: ridge;
+    padding-top:90px;
+    padding-bottom:10px ;
+    display: grid;
+    border-radius: 20px;
+
+    grid-template-areas: "1 2 3 4"
+                         "5 6 7 8"
+                         "9 10 11 12"
+                         "13 14 15 16"
+                         "17 18 19 20";
+
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
 }
 
-.results{
-    height: 50px;
-    width: 380px;
-    font-size: 30px;
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.iten1{
+    grid-area: 1;
+}
+.iten2{
+    grid-area: 2;
+}
+.iten3{
+    grid-area: 3;
+}
+.iten4{
+    grid-area: 4;
+}
+.iten5{
+    grid-area: 5;
+}
+.iten6{
+    grid-area: 6;
+}
+.iten7{
+    grid-area: 7;
+}
+.iten8{
+    grid-area: 8;
+}
+.iten9{
+    grid-area: 9;
+}
+.iten10{
+    grid-area: 10;
+}
+.iten11{
+    grid-area: 11;
+}
+.iten12{
+    grid-area: 12;
+}
+.iten13{
+    grid-area: 13;
+}
+.iten14{
+    grid-area: 14;
+}
+.iten15{
+    grid-area: 15;
+}
+.iten16{
+    grid-area: 16;
+}
+.iten17{
+    grid-area: 17;
+}
+.iten18{
+    grid-area: 18;
+}
+.iten19{
+    grid-area: 19;
+}
+.iten20{
+    grid-area: 20;
     
 }
 
-#numbers{
-    background-color: blueviolet;
-    margin-top: 100px;
-    display: grid;
-}
 
-.square{
-    width: 70px;
-    height: 50px;
-    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
-}
 
+button{
+    padding: 18px;
+    margin: none;
+    border-radius: 10px;
+    background-image: linear-gradient( 0deg,
+    #4a0063,
+    #1c0031)
+}

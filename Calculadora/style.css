@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 15px;
 }
 
 body{
@@ -8,13 +9,15 @@ body{
     background-color: rgb(34, 33, 33);
 }
 
+
+
 .mainContainer{
 
     margin: auto;
     width: 280px;
-    height: 400px;
+    height: 390px;
     border-style: ridge;
-    padding-top:90px;
+    padding-top:60px;
     padding-bottom:10px ;
     display: grid;
     border-radius: 20px;
@@ -27,13 +30,25 @@ body{
 
     justify-content: space-around;
     align-items: flex-end;
-    background-color: black;
+    /* background-color: black; */
+
 }
 
-div{
-    margin: 0px;
-    padding: 0px;
+input{
+margin-top: -100px;
+margin-bottom: 35;
+margin-right: -1500px;
+margin-left: -6.9px; 
+max-width: 275px;
+font-size: 40px;
+height: 130px;
+border-radius: 20px;
+background-color:rgb(34, 33, 33) ;
+border:none;
+-webkit-appearance: none;
+-moz-appearance: none;
 }
+
 
 
 .iten1{
